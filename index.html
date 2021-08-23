@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheckCard</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Check your card.</h1>
+    <p>Pleas, enter card number into input field and Press "Check card"</p>
+    <label for="nomberCard">Your card number:</label>
+    <input type="text" id="nomberCard" placeholder="max 16 digits" maxlength="16" autofocus pattern="[0-9]{,16}">
+    <div class="button">
+        <button onclick="checCardForValid()">Press to Check</button>
+    </div>
+    <p class="example">Example: 5578854960411024</p>
+    <h3 id='result'>Check your card.</h3>
+    
+</body>
+</html>

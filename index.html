@@ -10,15 +10,15 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <h1>Check your card.</h1>
-    <p>Pleas, enter card number into input field and Press "Check card"</p>
+    <div class="head">Check your card.</div>
+    <div>Pleas, enter card number into input field and Press "Check card"</div>
     <label for="nomberCard">Your card number:</label>
     <input type="text" id="nomberCard" placeholder="max 16 digits" maxlength="16" autofocus pattern="[0-9]{,16}">
     <div class="button">
         <button onclick="checCardForValid()">Press to Check</button>
     </div>
     <p class="example">Example: 5578854960411024</p>
-    <h3 id='result'>Check your card.</h3>
+    <div id='result'>Check your card.</div>
     
 </body>
 </html>
